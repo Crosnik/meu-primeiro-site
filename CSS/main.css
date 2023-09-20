@@ -1,0 +1,411 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+ul {
+  padding: 0px !important;
+}
+
+.menu-principal {
+  width: 100%;
+  background-image: linear-gradient(
+    45deg,
+    rgb(237, 209, 238) 5%,
+    rgb(125, 82, 151) 50%,
+    rgb(237, 209, 238) 30%
+  );
+  height: 60px;
+  margin-top: 0;
+}
+
+main,
+.content {
+  margin: 0 auto;
+  width: 980px;
+  position: relative;
+}
+.logo {
+  width: 70%;
+  padding: 16px;
+  float: left;
+}
+
+.logo {
+  float: left;
+  width: 18px;
+  height: 20px;
+  padding: 16px;
+  width: 70%;
+}
+
+.redes-sociais ul li {
+  margin-left: 20px;
+  display: inline-block;
+  float: left;
+  list-style: none;
+}
+
+.redes-sociais {
+  width: 17%;
+  float: right;
+}
+
+.header2 {
+  width: 980px;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+.menu-urls {
+  height: 60px;
+  border-bottom: 3px solid rgb(185, 112, 231);
+}
+
+.menu ul li {
+  display: inline-block;
+  color: #8b8b8b;
+  margin-left: 15px;
+  height: 40px;
+}
+
+.menu ul li:hover {
+  border-bottom: 4px solid rgb(185, 112, 231);
+}
+.menu ul li a:hover {
+  color: rgb(106, 233, 190);
+}
+
+.menu ul li a {
+  color: #8b8b8b;
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.menu {
+  width: 70%;
+  float: left;
+}
+
+.busca {
+  text-align: center;
+  width: 20%;
+  float: right;
+}
+.busca input {
+  font-size: 18px;
+  background-image: url("../img/lupa.png");
+  background-repeat: no-repeat;
+  background-size: 25px;
+  height: 11px;
+  padding: 10px;
+  width: 165px;
+  margin-top: 10px;
+  background-position: 99%;
+  border: 1px solid #7e7373;
+}
+
+.col-100 {
+  width: 100%;
+  float: left;
+  position: relative;
+  background-image: linear-gradient(
+    45deg,
+    rgb(237, 209, 238) 54%,
+    rgb(131, 70, 169) 10%,
+    rgb(237, 209, 238)
+  );
+}
+.col-100-2 {
+  width: 100%;
+  float: left;
+  position: relative;
+}
+.col-100-3 {
+  width: 100%;
+  float: left;
+  position: relative;
+  background-color: rgb(237, 209, 238);
+  /*background-image: linear-gradient(
+    to bottom,
+    rgb(237, 209, 238) 30%,
+    rgb(208, 132, 210)
+  );*/
+}
+.col-100-4 {
+  width: 100%;
+  float: left;
+  position: relative;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(237, 209, 238) 6%,
+    rgb(208, 123, 211)
+  );
+}
+.col-100-6 {
+  width: 100%;
+  float: left;
+  position: relative;
+  background-image: url("../img/footer2.png");
+}
+.col-100-footer {
+  width: 100%;
+  float: left;
+  position: relative;
+  background-color: rgb(116, 0, 120);
+}
+
+.imgredesocial {
+  width: 30px;
+  height: 30px;
+}
+
+.imglogo {
+  width: 40px;
+  height: 30px;
+}
+
+.img200 {
+  width: 200px;
+  height: 200px;
+}
+
+.img200-1 {
+  width: 200px;
+  height: 200px;
+  margin-left: 48px;
+}
+button.slick-prev {
+  font-size: 0px;
+  border: none;
+  width: 25px;
+  height: 51px;
+  z-index: 9;
+  background-color: transparent;
+  position: absolute;
+  background-image: url(../img/prev.png);
+  background-image: -webkit-image-set (url(../img/prev.png));
+  top: 45%;
+  left: 14%;
+  background-size: 32px;
+  background-repeat: no-repeat;
+}
+
+button.slick-next {
+  font-size: 0px;
+  border: none;
+  width: 25px;
+  z-index: 9;
+  height: 51px;
+  background-color: transparent;
+  position: absolute;
+  background-image: url(../img/next.png);
+  background-image: -webkit-image-set (url(../img/next.png));
+  top: 45%;
+  right: 14%;
+  background-size: 32px;
+  background-repeat: no-repeat;
+}
+
+.slick-dots li button {
+  font-size: 0px;
+  border: 5px solid #ffffff;
+  height: 26px;
+  width: 26px;
+  background: transparent;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.slick-dots {
+  margin: 0 auto;
+  width: 50%;
+  position: absolute;
+  left: 45%;
+  top: 93%;
+}
+
+li.slick-active button {
+  background-color: rgb(185, 112, 231);
+}
+.slick-dots li {
+  display: inline-block;
+  padding-left: 10px;
+}
+
+.slick-initialized {
+  overflow: hidden;
+}
+
+.texto-destaque {
+  text-align: center;
+}
+.texto-destaque h1 {
+  text-transform: uppercase;
+  font-size: 30px;
+  color: #818181;
+}
+
+.texto-destaque strong {
+  color: #010101;
+}
+.texto-destaque p {
+  color: #9a9a9a;
+  font-size: 15px;
+}
+
+.col-3 {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 29%;
+  float: left;
+  position: relative;
+}
+
+.col-4 {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 29%;
+  float: left;
+  position: relative;
+}
+.col-5 {
+  width: 25%;
+  float: left;
+  text-align: center;
+}
+.bloco-texto {
+  padding-top: 4rem;
+}
+
+.bloco-imagem {
+  height: 300px;
+  border: 1px solid #c5c5c5;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: 10px;
+}
+
+.bloco-imagem b,
+p {
+  text-align: left;
+}
+.bloco-texto {
+  margin-top: 3em;
+}
+h3 {
+  font-weight: normal !important;
+}
+
+.bloco-imagens-texto {
+  background-color: rgb(237, 209, 238);
+}
+.bloco-imagens-texto:before {
+  width: 100%;
+  display: inline-block;
+  content: "";
+  height: 52px;
+  background-color: rgb(237, 209, 238);
+}
+
+.bloco-imagens-texto:after {
+  width: 100%;
+  display: inline-block;
+  content: "";
+  height: 52px;
+  background-color: rgb(208, 123, 211);
+}
+.bloco-video-imagem:before {
+  width: 100%;
+  display: inline-block;
+  content: "";
+  height: 52px;
+  background-color: rgb(208, 123, 211);
+}
+
+.col-100-footer h3 {
+  text-align: left;
+}
+
+.col-100-footer {
+  background-image: url("../img/roxo.jpg");
+  color: #ffffff;
+}
+
+.clock {
+  color: #898989 !important;
+}
+
+.clock:before {
+  content: "";
+  width: 15px;
+  height: 14px;
+  display: inline-block;
+  float: left;
+  background-image: url("../img/clock.png");
+  background-repeat: no-repeat;
+  padding-left: 5px;
+}
+
+.clock::after {
+  width: 90%;
+  display: inline-block;
+  content: "";
+  border-top: 1px solid #ffffff;
+  height: 15px;
+}
+
+.sobre-mim {
+  font-size: 15px;
+}
+
+.tags p {
+  font-size: 15px;
+}
+
+.tags b {
+  font-size: 21px;
+}
+
+.h {
+  font-size: 15px;
+}
+.col-100-footer p {
+  width: 88%;
+  text-align: left;
+}
+
+.local:before,
+.emailico:before,
+.telefoneico:before {
+  content: "";
+  width: 17px;
+  height: 24px;
+  display: inline-block;
+  float: left;
+  background-repeat: no-repeat;
+  padding-left: 5px;
+}
+
+.local:before {
+  background-image: url("../img/local.png");
+}
+
+.emailico:before {
+  background-image: url("../img/email.png");
+}
+
+.telefoneico:before {
+  background-image: url("../img/telefoneico.png");
+}
+
+.col-100-6-footer-2 {
+  background-image: url("../img/footer2.png");
+  color: #c1c1c1;
+  height: 50px;
+}
+
+.col-100-6-footer-2 p {
+  padding-left: 16%;
+  text-align: left;
+}
